@@ -7,12 +7,13 @@ import HooksCakeContainer from "./components/HooksCakeContainer";
 import IceCreamContainer from "./components/IceCreamContainer";
 import NewCakeContainer from "./components/NewCakeContainer";
 import ItemContainer from "./components/ItemContainer";
+import UserContainer from "./components/UserContainer";
 
 function App() {
     return (
         <Provider store={store}>
             <div className="App">
-                <h3>Using Connect Function</h3>
+                {/* <h3>Using Connect Function</h3>
                 <CakeContainer />
                 <hr />
                 <h3>Using Hooks</h3>
@@ -26,7 +27,8 @@ function App() {
                 <hr />
                 <h3>MapStateToProps OwnProps</h3>
                 <ItemContainer cake />
-                <ItemContainer />
+                <ItemContainer /> */}
+                <UserContainer />
             </div>
         </Provider>
     );
